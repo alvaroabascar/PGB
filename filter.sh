@@ -2,7 +2,7 @@
 
 all_genes=genes/GTEx_Analysis_RNA-seq_selected_tissues.txt
 
-gzip -d ${all_genes}.gz
+gzip -kd ${all_genes}.gz
 
 python3 scripts/filter_all_genes.py $all_genes > genes/all_genes.txt
 echo 'genes/all_genes.txt -> all genes with expression > 1 rpkm in at least one tissue'

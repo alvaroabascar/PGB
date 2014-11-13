@@ -1,0 +1,4 @@
+genes/*.txt
+genes/.~*
+
+*.pyc

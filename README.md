@@ -1,2 +1,4 @@
-PGB
+Principle of Genome Bioinformatics
 ===
+Project
+---

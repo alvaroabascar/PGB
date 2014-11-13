@@ -32,7 +32,7 @@ boxplot(num.data, xaxt="n", xlab="", ylab=ylabel, axes=FALSE, col=colors,
         pch=18, outcol="#333333", main="Overall expression of cortex-specific genes across all tissues")
 
 # the names of the tissues
-xlabels <- paste(colnames(num.data))
+xlabels <- colnames(num.data)
 
 # y axis in logarithmic scale, x axis empty (by now)
 ylabels <- parse(text=paste(c("10^-6", "10^-4", "10^-2", "0", "10^2")))
@@ -40,8 +40,8 @@ axis(2, labels=ylabels, at=c(-6, -4, -2, 0, 2))
 axis(1, labels=FALSE, at=c(1:19))
 
 # add tissue names as x labels
-text(x=seq_along(labels), y=par("usr")[3]- 1, srt=45, adj=1,
+text(x=seq_along(xlabels), y=par("usr")[3]- 1, srt=45, adj=1,
      labels=xlabels, xpd=TRUE)
 
-message("Press Return To Continue")
-invisible(readLines("stdin", n=1))
+# message("Press Return To Continue")
+# invisible(readLines("stdin", n=1))

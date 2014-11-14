@@ -56,4 +56,5 @@ def filter_file(filter_func, filename, skip = 0):
 
     # join the filtered lines and the headers, which should be conserved
     newcontent.extend(filtered_rows)
+    newcontent[-1] = newcontent[-1].strip()
     return newcontent

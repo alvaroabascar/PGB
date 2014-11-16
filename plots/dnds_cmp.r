@@ -12,8 +12,12 @@ par(mfrow=c(3,1))
 
 xlab <- "dN/dS ratio"
 
-hist(all, nclass=50, col=rgb(0,1,0), xlab=xlab, main="All genes")
-hist(hk, nclass=50, col=rgb(0,0,1), xlab=xlab, main="Housekeeping genes")
-hist(ts, nclass=50, col=rgb(1,0,0), xlab=xlab, main="Tissue-specific genes")
+col1 <- rgb(0.6, 0.6, 1)
+col2 <- rgb(0.6, 1, 0.6)
+col3 <- rgb(1, 0.6, 0.6)
+
+hist(all, nclass=50, col=col1, xlab=xlab, main="All genes")
+hist(hk, nclass=50, col=col2, xlab=xlab, main="Housekeeping genes")
+hist(ts, nclass=50, col=col3, xlab=xlab, main="Tissue-specific genes")
 
 dev.off()

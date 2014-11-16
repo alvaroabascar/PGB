@@ -12,9 +12,9 @@ while($line)
 	chomp($line);
 	if ($line =~ /(\d+\.\d+)\s(\d+\.\d+)/) # we have two numbers with decimals
 		{
-		if (($2>0)&&($2<2)&&($1<2))
+		if (($1>0)&&($1<2)&&($2<2))
 			{
-			$dnds=$1/$2;
+			$dnds=$2/$1;
 			print "$line\t$dnds\n";
 			$dnds=sprintf("%.5f",$dnds);
 			print OUT "$line\t$dnds\n";

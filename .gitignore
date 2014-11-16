@@ -1,4 +1,3 @@
-genes/*.txt
 genes/.~*
-
+__pycache__
 *.pyc

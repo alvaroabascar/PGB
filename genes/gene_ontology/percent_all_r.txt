@@ -1,3 +1,4 @@
+perc#class
 4.82948#protein binding
 3.63334#
 2.60511#nucleus

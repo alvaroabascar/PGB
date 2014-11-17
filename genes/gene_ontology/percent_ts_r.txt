@@ -1,3 +1,4 @@
+perc#class
 0.0700149#protein binding
 0.0697051#integral component of membrane
 0.0580876#plasma membrane

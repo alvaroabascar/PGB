@@ -1,0 +1,1500 @@
+    452 protein binding
+    450 integral component of membrane
+    375 plasma membrane
+    326 membrane
+    286 
+    238 transmembrane transport
+    195 transport
+    158 ion transport
+    149 synaptic transmission
+    139 nucleus
+    121 integral component of plasma membrane
+    117 cytoplasm
+    103 ion transmembrane transport
+    101 G-protein coupled receptor activity
+     97 calcium ion binding
+     94 signal transduction
+     93 regulation of ion transmembrane transport
+     89 cell junction
+     88 ion channel activity
+     87 G-protein coupled receptor signaling pathway
+     80 extracellular region
+     73 postsynaptic membrane
+     68 transporter activity
+     65 DNA binding
+     53 extracellular ligand-gated ion channel activity
+     52 potassium ion transmembrane transport
+     50 ATP binding
+     49 zinc ion binding
+     49 GABA-A receptor activity
+     48 regulation of transcription, DNA-templated
+     46 voltage-gated calcium channel complex
+     44 axon guidance
+     42 sequence-specific DNA binding transcription factor activity
+     41 presynaptic membrane
+     41 membrane depolarization during action potential
+     38 regulation of membrane potential
+     37 cytosol
+     37 cell adhesion
+     35 transcription, DNA-templated
+     35 small molecule metabolic process
+     35 potassium ion transport
+     35 calcium ion import
+     34 sodium ion transport
+     33 chloride transmembrane transport
+     32 metal ion binding
+     32 low voltage-gated calcium channel activity
+     32 intracellular
+     31 voltage-gated potassium channel complex
+     31 scaffold protein binding
+     31 positive regulation of calcium ion-dependent exocytosis
+     31 extracellular vesicular exosome
+     31 chloride channel activity
+     31 central nervous system development
+     29 sodium ion transmembrane transport
+     29 gamma-aminobutyric acid signaling pathway
+     29 axon
+     28 dendrite
+     28 chloride channel complex
+     27 delayed rectifier potassium channel activity
+     26 regulation of synaptic transmission, glutamatergic
+     26 homophilic cell adhesion
+     25 protein homooligomerization
+     25 glutamate receptor activity
+     25 cytoskeleton
+     24 nervous system development
+     24 Golgi apparatus
+     24 extracellular space
+     24 extracellular-glutamate-gated ion channel activity
+     24 calmodulin binding
+     23 potassium channel activity
+     23 biological_process
+     22 protein phosphorylation
+     22 positive regulation of transcription from RNA polymerase II promoter
+     22 neurotransmitter transport
+     21 synapse
+     21 positive regulation of transcription, DNA-templated
+     20 visual perception
+     20 regulation of insulin secretion
+     20 multicellular organismal development
+     20 growth cone
+     19 transferase activity, transferring phosphorus-containing groups
+     19 protein kinase activity
+     19 proteinaceous extracellular matrix
+     19 postsynaptic density
+     19 neuronal cell body
+     19 endoplasmic reticulum
+     19 cell surface
+     18 protein tyrosine kinase activity
+     18 neuron projection
+     18 cellular_component
+     18 catalytic activity
+     18 adenylate cyclase-inhibiting G-protein coupled glutamate receptor signaling pathway
+     17 voltage-gated sodium channel activity
+     17 symporter activity
+     17 sequence-specific DNA binding
+     17 metabolic process
+     17 ionotropic glutamate receptor activity
+     17 hydrolase activity
+     16 protein dephosphorylation
+     16 perinuclear region of cytoplasm
+     16 glucose homeostasis
+     16 chloride transport
+     16 blood coagulation
+     15 voltage-gated potassium channel activity
+     15 receptor complex
+     15 receptor binding
+     15 neurotransmitter secretion
+     15 molecular_function
+     15 carbohydrate metabolic process
+     15 apoptotic process
+     14 Wnt signaling pathway
+     14 voltage-gated ion channel activity
+     14 synaptic transmission, GABAergic
+     14 protein tyrosine phosphatase activity
+     14 protein kinase C-activating G-protein coupled receptor signaling pathway
+     14 protein kinase binding
+     14 neurotransmitter:sodium symporter activity
+     14 inorganic anion exchanger activity
+     14 extracellular matrix organization
+     14 energy reserve metabolic process
+     14 cellular response to histamine
+     14 cell differentiation
+     14 cell death
+     14 cell-cell signaling
+     14 calcium channel regulator activity
+     14 basolateral plasma membrane
+     13 regulation of axonogenesis
+     13 proteolysis
+     13 protein ubiquitination
+     13 protein dimerization activity
+     13 positive regulation of gene expression
+     13 phosphatase activity
+     13 oxidation-reduction process
+     13 kainate selective glutamate receptor complex
+     13 ionotropic glutamate receptor signaling pathway
+     13 group III metabotropic glutamate receptor activity
+     13 GABA-A receptor complex
+     13 endoplasmic reticulum membrane
+     13 dephosphorylation
+     13 cell communication
+     13 calcium ion transport
+     12 voltage-gated calcium channel activity
+     12 transmembrane transporter activity
+     12 transcription factor binding
+     12 small GTPase mediated signal transduction
+     12 serine-type endopeptidase activity
+     12 sequence-specific DNA binding RNA polymerase II transcription factor activity
+     12 sensory perception of sound
+     12 positive regulation of apoptotic process
+     12 neuropeptide signaling pathway
+     12 intracellular signal transduction
+     12 calcium ion transmembrane transport
+     12 beta-catenin binding
+     12 alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid selective glutamate receptor complex
+     11 transcription from RNA polymerase II promoter
+     11 synaptic vesicle
+     11 RNA polymerase II core promoter sequence-specific DNA binding
+     11 response to drug
+     11 regulation of alpha-amino-3-hydroxy-5-methyl-4-isoxazole propionate selective glutamate receptor activity
+     11 phosphorylation
+     11 nucleoplasm
+     11 neuronal action potential
+     11 negative regulation of neurogenesis
+     11 memory
+     11 locomotory behavior
+     11 guanine deaminase activity
+     11 dendritic shaft
+     11 cilium
+     11 brain development
+     11 benzodiazepine receptor activity
+     11 axonogenesis
+     11 apical plasma membrane
+     10 ubiquitin-protein transferase activity
+     10 synaptic transmission, glutamatergic
+     10 sodium-independent organic anion transport
+     10 sensory perception of smell
+     10 R-SMAD binding
+     10 regulation of neuron apoptotic process
+     10 pancreatic A cell development
+     10 organ morphogenesis
+     10 nuclear chromatin
+     10 neuron fate commitment
+     10 negative regulation of Wnt signaling pathway
+     10 learning
+     10 histone acetyltransferase binding
+     10 cell surface receptor signaling pathway
+     10 adult behavior
+      9 skeletal system development
+      9 response to wounding
+      9 regulation of short-term neuronal synaptic plasticity
+      9 protein transport
+      9 protein serine/threonine kinase activity
+      9 positive regulation of synaptic transmission, glutamatergic
+      9 positive regulation of MyD88-dependent toll-like receptor signaling pathway
+      9 peptidyl-tyrosine dephosphorylation
+      9 nucleotide binding
+      9 nucleic acid binding
+      9 negative regulation of adenylate cyclase activity
+      9 kainate selective glutamate receptor activity
+      9 iris morphogenesis
+      9 heme binding
+      9 eye development
+      9 cornea development in camera-type eye
+      9 cellular protein modification process
+      9 cell cortex
+      9 blood vessel development
+      9 activation of MAPK activity
+      8 voltage-gated sodium channel complex
+      8 transport vesicle
+      8 RNA binding
+      8 regulation of G-protein coupled receptor protein signaling pathway
+      8 regulation of gene expression
+      8 protein heterodimerization activity
+      8 positive regulation of synapse assembly
+      8 positive regulation of MAPK cascade
+      8 positive regulation of GTPase activity
+      8 positive regulation of axon extension
+      8 PDZ domain binding
+      8 opioid receptor signaling pathway
+      8 microtubule
+      8 iron ion binding
+      8 GTPase activity
+      8 G-protein coupled glutamate receptor signaling pathway
+      8 Golgi membrane
+      8 drug binding
+      8 dendritic spine
+      8 cytoplasmic vesicle
+      8 cellular calcium ion homeostasis
+      8 cell junction assembly
+      8 cell-cell junction organization
+      8 carbohydrate transport
+      8 anchored component of plasma membrane
+      8 adherens junction organization
+      7 visual learning
+      7 vesicle-mediated transport
+      7 UTP biosynthetic process
+      7 small conductance calcium-activated potassium channel activity
+      7 regulation of synaptic transmission
+      7 protein homodimerization activity
+      7 proline transport
+      7 organic anion transmembrane transporter activity
+      7 opioid receptor activity
+      7 nucleoside diphosphate phosphorylation
+      7 nucleoside diphosphate kinase activity
+      7 nuclear envelope
+      7 node of Ranvier
+      7 mitochondrion
+      7 microtubule motor activity
+      7 ligase activity
+      7 ion transmembrane transporter activity
+      7 integral component of synaptic vesicle membrane
+      7 guanyl-nucleotide exchange factor activity
+      7 guanine catabolic process
+      7 GTP catabolic process
+      7 GTP biosynthetic process
+      7 GTP binding
+      7 glutamate receptor signaling pathway
+      7 CTP biosynthetic process
+      7 cellular response to DNA damage stimulus
+      7 calcium:sodium antiporter activity
+      7 binding
+      7 asymmetric synapse
+      7 associative learning
+      7 anion transport
+      7 amino acid transport
+      7 adenylate cyclase-inhibiting G-protein coupled receptor signaling pathway
+      7 actin binding
+      6 synapse organization
+      6 spermatogenesis
+      6 social behavior
+      6 smoothened signaling pathway
+      6 skeletal muscle satellite cell activation
+      6 signal transducer activity
+      6 serine binding
+      6 regulation of microtubule polymerization or depolymerization
+      6 regulation of long-term neuronal synaptic plasticity
+      6 regulation of cyclase activity
+      6 receptor activity
+      6 protein C-terminus binding
+      6 presynaptic active zone
+      6 potassium:chloride symporter activity
+      6 positive regulation of synapse maturation
+      6 positive regulation of excitatory postsynaptic membrane potential
+      6 positive regulation of cytosolic calcium ion concentration involved in phospholipase C-activating G-protein coupled signaling pathway
+      6 phosphotransferase activity, alcohol group as acceptor
+      6 palate development
+      6 oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+      6 organic anion transport
+      6 opioid peptide activity
+      6 nucleocytoplasmic transport
+      6 nucleobase-containing small molecule metabolic process
+      6 neuron cell-cell adhesion
+      6 neuromuscular process controlling balance
+      6 negative regulation of transcription from RNA polymerase II promoter
+      6 negative regulation of neuron apoptotic process
+      6 negative regulation of glutamate secretion
+      6 negative regulation of cAMP biosynthetic process
+      6 membrane depolarization
+      6 juxtaparanode region of axon
+      6 inward rectifier potassium channel activity
+      6 intracellular protein transport
+      6 identical protein binding
+      6 glutamate binding
+      6 eye photoreceptor cell development
+      6 exocytosis
+      6 establishment or maintenance of cell polarity
+      6 embryo development
+      6 detection of calcium ion
+      6 dentate gyrus development
+      6 cytoplasmic membrane-bounded vesicle
+      6 cell redox homeostasis
+      6 cell projection
+      6 behavioral fear response
+      6 axonemal dynein complex
+      6 ARF GTPase activator activity
+      6 anion transmembrane transporter activity
+      6 adenylate cyclase inhibitor activity
+      5 Z disc
+      5 transmission of nerve impulse
+      5 syntrophin complex
+      5 synapse assembly
+      5 somitogenesis
+      5 sodium-independent organic anion transmembrane transporter activity
+      5 skeletal muscle satellite cell proliferation
+      5 skeletal muscle satellite cell differentiation
+      5 serotonin receptor activity
+      5 serotonin binding
+      5 serine-type peptidase activity
+      5 sensory perception of pain
+      5 sensory perception
+      5 ruffle membrane
+      5 Rho guanyl-nucleotide exchange factor activity
+      5 retina development in camera-type eye
+      5 response to toxic substance
+      5 renal tubular secretion
+      5 regulation of neurotransmitter levels
+      5 protein complex assembly
+      5 potassium channel regulator activity
+      5 postsynaptic membrane assembly
+      5 postsynaptic density protein 95 clustering
+      5 positive regulation of synaptic transmission
+      5 positive regulation of neuron differentiation
+      5 positive regulation of cytosolic calcium ion concentration
+      5 PML body
+      5 platelet activation
+      5 phospholipase C-activating G-protein coupled receptor signaling pathway
+      5 nuclear lumen
+      5 neuron recognition
+      5 neuron differentiation
+      5 neuroligin family protein binding
+      5 neuroligin clustering
+      5 negative regulation of phosphatase activity
+      5 negative regulation of catalytic activity
+      5 negative regulation of apoptotic process
+      5 NAD+ kinase activity
+      5 myelination
+      5 microtubule cytoskeleton
+      5 metal ion transport
+      5 long-term synaptic potentiation
+      5 kinase activity
+      5 intrinsic component of membrane
+      5 immune response
+      5 heparin binding
+      5 growth factor activity
+      5 group II metabotropic glutamate receptor activity
+      5 G-protein coupled receptor homodimeric complex
+      5 G-protein coupled receptor dimeric complex
+      5 gephyrin clustering
+      5 GABA receptor activity
+      5 extracellular matrix structural constituent
+      5 extracellular matrix
+      5 excitatory synapse
+      5 epidermis development
+      5 endocrine pancreas development
+      5 dimeric G-protein coupled receptor signaling pathway
+      5 diacylglycerol kinase activity
+      5 deacetylase activity
+      5 cellular response to insulin stimulus
+      5 cell fate commitment
+      5 cell adhesion molecule binding
+      5 caveola
+      5 calcium-activated potassium channel activity
+      5 biomineral tissue development
+      5 bicarbonate transport
+      5 ATP catabolic process
+      5 ATPase activity
+      5 anchored component of membrane
+      5 amacrine cell differentiation
+      5 action potential
+      5 actin filament
+      4 vocalization behavior
+      4 uridine phosphorylase activity
+      4 translation initiation factor activity
+      4 translational initiation
+      4 trans-Golgi network
+      4 transcription regulatory region sequence-specific DNA binding
+      4 transcription initiation from RNA polymerase II promoter
+      4 termination of G-protein coupled receptor signaling pathway
+      4 telencephalon development
+      4 steroid hormone receptor activity
+      4 steroid hormone mediated signaling pathway
+      4 sodium channel complex
+      4 serotonin receptor signaling pathway
+      4 serine-type endopeptidase inhibitor activity
+      4 RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription
+      4 RNA polymerase II core promoter proximal region sequence-specific DNA binding
+      4 retinal cone cell development
+      4 response to stimulus
+      4 response to amphetamine
+      4 regulation of transcription from RNA polymerase II promoter
+      4 regulation of skeletal muscle tissue development
+      4 regulation of Rho protein signal transduction
+      4 regulation of Ras protein signal transduction
+      4 regulation of Rac protein signal transduction
+      4 regulation of muscle cell differentiation
+      4 regulation of ARF GTPase activity
+      4 purine nucleotide catabolic process
+      4 purine nucleoside metabolic process
+      4 purine nucleobase metabolic process
+      4 protein tyrosine/serine/threonine phosphatase activity
+      4 protein localization to synapse
+      4 protein de-ADP-ribosylation
+      4 positive regulation of sequence-specific DNA binding transcription factor activity
+      4 positive regulation of Ras GTPase activity
+      4 positive regulation of G-protein coupled receptor protein signaling pathway
+      4 positive regulation of cell proliferation
+      4 phototransduction
+      4 phosphoric diester hydrolase activity
+      4 phospholipase inhibitor activity
+      4 phagocytic cup
+      4 peptidyl-tyrosine phosphorylation
+      4 nucleoside metabolic process
+      4 nucleobase-containing compound metabolic process
+      4 Notch signaling pathway
+      4 neutral amino acid transport
+      4 neuron projection development
+      4 neuron development
+      4 negative regulation of endopeptidase activity
+      4 negative regulation of canonical Wnt signaling pathway
+      4 muscle cell development
+      4 metal ion transmembrane transporter activity
+      4 maternal behavior
+      4 long-term memory
+      4 lipid metabolic process
+      4 leucine transport
+      4 ketone body biosynthetic process
+      4 keratinocyte differentiation
+      4 JNK cascade
+      4 ionotropic glutamate receptor complex
+      4 intrinsic component of plasma membrane
+      4 hydroxymethylglutaryl-CoA lyase activity
+      4 hydrolase activity, acting on glycosyl bonds
+      4 homotypic cell-cell adhesion
+      4 glycosaminoglycan metabolic process
+      4 glycerophosphoinositol inositolphosphodiesterase activity
+      4 glycerophosphodiester phosphodiesterase activity
+      4 glycerol metabolic process
+      4 gene expression
+      4 GABA-gated chloride ion channel activity
+      4 forebrain development
+      4 FMN binding
+      4 endopeptidase inhibitor activity
+      4 embryonic hindlimb morphogenesis
+      4 embryonic forelimb morphogenesis
+      4 E-box binding
+      4 dopamine neurotransmitter receptor activity, coupled via Gs
+      4 dendrite membrane
+      4 cytoskeleton organization
+      4 collagen trimer
+      4 cochlea development
+      4 cilium movement
+      4 chromatin binding
+      4 chemotaxis
+      4 cerebellum development
+      4 centrosome
+      4 cellular response to leptin stimulus
+      4 cellular response to cAMP
+      4 cellular glucose homeostasis
+      4 camera-type eye development
+      4 calcium, potassium:sodium antiporter activity
+      4 axon initial segment
+      4 amino acid transmembrane transporter activity
+      4 amelogenesis
+      4 alpha-ketoglutarate transport
+      4 aging
+      4 adenylate cyclase-activating G-protein coupled receptor signaling pathway
+      4 activation of Rac GTPase activity
+      4 activation of phospholipase C activity
+      3 zinc ion transport
+      3 vocal learning
+      3 transmembrane signaling receptor activity
+      3 transmembrane receptor protein tyrosine kinase signaling pathway
+      3 transmembrane receptor protein tyrosine kinase activator activity
+      3 transmembrane-ephrin receptor activity
+      3 terminal bouton
+      3 T cell receptor signaling pathway
+      3 sulfotransferase activity
+      3 somite rostral/caudal axis specification
+      3 sodium channel activity
+      3 skeletal system morphogenesis
+      3 single organismal cell-cell adhesion
+      3 signal transduction by phosphorylation
+      3 SH3 domain binding
+      3 sensory perception of sour taste
+      3 secretory granule lumen
+      3 RNA polymerase II transcription coactivator activity
+      3 retinal rod cell development
+      3 response to cocaine
+      3 release of sequestered calcium ion into cytosol
+      3 regulation of synaptic plasticity
+      3 regulation of small GTPase mediated signal transduction
+      3 regulation of saliva secretion
+      3 regulation of N-methyl-D-aspartate selective glutamate receptor activity
+      3 regulation of neuron projection development
+      3 regulation of immune response
+      3 regulation of hormone secretion
+      3 regulation of GTPase activity
+      3 regulation of glycolytic process
+      3 regulation of glucose transport
+      3 regulation of excitatory postsynaptic membrane potential
+      3 regulation of circadian rhythm
+      3 regulation of cell proliferation
+      3 regulation of cell growth
+      3 regulation of behavior
+      3 receptor tyrosine kinase binding
+      3 receptor localization to synapse
+      3 Ras guanyl-nucleotide exchange factor activity
+      3 positive T cell selection
+      3 positive regulation of synaptic transmission, GABAergic
+      3 positive regulation of Ras protein signal transduction
+      3 positive regulation of phosphatidylinositol biosynthetic process
+      3 positive regulation of JNK cascade
+      3 positive regulation of insulin secretion
+      3 positive regulation of glycogen biosynthetic process
+      3 positive regulation of ERK1 and ERK2 cascade
+      3 positive regulation of canonical Wnt signaling pathway
+      3 positive regulation of cAMP biosynthetic process
+      3 platelet aggregation
+      3 piRNA metabolic process
+      3 piP-body
+      3 phosphorus-oxygen lyase activity
+      3 phospholipase C-activating G-protein coupled glutamate receptor signaling pathway
+      3 phospholipase C-activating dopamine receptor signaling pathway
+      3 phosphatidylinositol 3-kinase signaling
+      3 P granule
+      3 peptide hormone processing
+      3 peptide biosynthetic process
+      3 peptidase inhibitor activity
+      3 peptidase activity
+      3 oxidoreductase activity
+      3 oogenesis
+      3 olfactory bulb development
+      3 nonmotile primary cilium
+      3 nitric-oxide synthase activity
+      3 nitric oxide biosynthetic process
+      3 neurotrophin TRK receptor signaling pathway
+      3 neurotransmitter transporter activity
+      3 neuropeptide receptor activity
+      3 neuropeptide hormone activity
+      3 negative T cell selection
+      3 negative regulation of transcription, DNA-templated
+      3 negative regulation of synaptic transmission, glutamatergic
+      3 negative regulation of smoothened signaling pathway
+      3 negative regulation of osteoblast differentiation
+      3 negative regulation of neuron differentiation
+      3 negative regulation of gluconeogenesis
+      3 negative regulation of gene expression
+      3 negative regulation of catenin import into nucleus
+      3 NADP binding
+      3 myelination in peripheral nervous system
+      3 monooxygenase activity
+      3 mitochondrial inner membrane
+      3 microvillus
+      3 microtubule organizing center
+      3 microtubule binding
+      3 mating behavior
+      3 magnesium ion binding
+      3 lysosome organization
+      3 long term synaptic depression
+      3 leukocyte migration
+      3 lamellipodium membrane
+      3 in utero embryonic development
+      3 intracellular membrane-bounded organelle
+      3 inositol 1,3,4,5 tetrakisphosphate binding
+      3 innervation
+      3 inner ear receptor cell development
+      3 hindbrain development
+      3 high voltage-gated calcium channel activity
+      3 hexose transport
+      3 heterophilic cell-cell adhesion
+      3 GTPase activator activity
+      3 Golgi lumen
+      3 glycolytic process
+      3 glycine transport
+      3 glucose transport
+      3 glucose binding
+      3 glucokinase activity
+      3 gene silencing by RNA
+      3 galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity
+      3 frizzled binding
+      3 flavin adenine dinucleotide binding
+      3 epidermal lamellar body
+      3 ephrin receptor signaling pathway
+      3 ephrin receptor activity
+      3 endoplasmic reticulum lumen
+      3 endocytic vesicle membrane
+      3 dynorphin receptor activity
+      3 dorsal/ventral pattern formation
+      3 dopamine neurotransmitter receptor activity
+      3 dopamine binding
+      3 DNA methylation involved in gamete generation
+      3 detection of glucose
+      3 dendritic spine membrane
+      3 cytoplasmic vesicle membrane
+      3 cytoplasmic microtubule
+      3 cyclic nucleotide biosynthetic process
+      3 COP9 signalosome
+      3 cognition
+      3 clathrin-coated vesicle
+      3 cilium or flagellum-dependent cell motility
+      3 ciliary basal body
+      3 cerebral cortex neuron differentiation
+      3 cerebral cortex GABAergic interneuron migration
+      3 cerebellar granule cell differentiation
+      3 cellular response to electrical stimulus
+      3 cellular response to acidity
+      3 cell-cell junction
+      3 cell body
+      3 cation transport
+      3 cation channel activity
+      3 catenin complex
+      3 carbohydrate binding
+      3 calcium-dependent protein binding
+      3 AU-rich element binding
+      3 adult walking behavior
+      3 adult locomotory behavior
+      3 adenylate cyclase activity
+      3 adenylate cyclase-activating dopamine receptor signaling pathway
+      3 activation of transmembrane receptor protein tyrosine kinase activity
+      3 activation of adenylate cyclase activity
+      3 actin cytoskeleton
+      3 acetylcholine receptor binding
+      3 1-(4-iodo-2,5-dimethoxyphenyl)propan-2-amine binding
+      2 wound healing
+      2 vasopressin receptor activity
+      2 uridine metabolic process
+      2 UMP salvage
+      2 ubiquitin protein ligase binding
+      2 type III intermediate filament
+      2 T-tubule
+      2 transcription factor complex
+      2 transcription corepressor activity
+      2 tight junction
+      2 thromboxane A2 receptor binding
+      2 tetrahydrobiopterin binding
+      2 temperature homeostasis
+      2 synaptic vesicle membrane
+      2 synaptic vesicle clustering
+      2 synaptic transmission, dopaminergic
+      2 synapse maturation
+      2 superoxide metabolic process
+      2 striatum development
+      2 spermidine biosynthetic process
+      2 sour taste receptor activity
+      2 somatic stem cell maintenance
+      2 sleep
+      2 signal transduction involved in regulation of gene expression
+      2 sensitization
+      2 selenocysteinyl-tRNA(Sec) biosynthetic process
+      2 secretory granule
+      2 Schwann cell development
+      2 RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription
+      2 RNA polymerase II transcription corepressor activity
+      2 rhythmic process
+      2 response to methotrexate
+      2 response to glucose
+      2 response to estradiol
+      2 regulation of viral entry into host cell
+      2 regulation of translation
+      2 regulation of transcription involved in G1/S transition of mitotic cell cycle
+      2 regulation of synaptic transmission, GABAergic
+      2 regulation of synaptic transmission, dopaminergic
+      2 regulation of RNA splicing
+      2 regulation of proteolysis
+      2 regulation of protein kinase C signaling
+      2 regulation of neuron differentiation
+      2 regulation of neuronal synaptic plasticity
+      2 regulation of intestinal epithelial structure maintenance
+      2 regulation of inhibitory postsynaptic membrane potential
+      2 regulation of grooming behavior
+      2 regulation of G2/M transition of mitotic cell cycle
+      2 regulation of exocytosis
+      2 regulation of cyclin-dependent protein serine/threonine kinase activity
+      2 regulation of cell cycle arrest
+      2 regulation of cell cycle
+      2 regulation of calcium ion transport
+      2 regulation of blood coagulation
+      2 quinone binding
+      2 pyrimidine nucleoside salvage
+      2 pyrimidine nucleoside catabolic process
+      2 pyrimidine nucleobase metabolic process
+      2 protein targeting
+      2 protein sulfation
+      2 protein oligomerization
+      2 protein kinase A binding
+      2 protein-chromophore linkage
+      2 presynaptic membrane assembly
+      2 potassium ion binding
+      2 post-embryonic development
+      2 positive regulation of vasoconstriction
+      2 positive regulation of synaptic plasticity
+      2 positive regulation of Rho GTPase activity
+      2 positive regulation of protein kinase A signaling
+      2 positive regulation of phosphorylation
+      2 positive regulation of osteoblast differentiation
+      2 positive regulation of guanylate cyclase activity
+      2 positive regulation of glycolytic process
+      2 positive regulation of establishment of protein localization to plasma membrane
+      2 positive regulation of cell migration
+      2 positive regulation of cell differentiation
+      2 positive regulation of calcium-mediated signaling
+      2 positive regulation of bone mineralization
+      2 positive regulation of axon extension involved in axon guidance
+      2 positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway
+      2 polar body extrusion after meiotic divisions
+      2 phototransduction, visible light
+      2 photoreceptor activity
+      2 phosphoprotein phosphatase activity
+      2 phospholipid metabolic process
+      2 phosphatidylinositol biosynthetic process
+      2 phosphatidylinositol-3,5-bisphosphate binding
+      2 peroxisome
+      2 peripheral nervous system development
+      2 perikaryon
+      2 peptidyl-cysteine S-nitrosylation
+      2 oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor
+      2 oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced ascorbate as one donor, and incorporation of one atom of oxygen
+      2 ossification
+      2 one-carbon metabolic process
+      2 nucleotide catabolic process
+      2 nucleolus
+      2 Notch binding
+      2 N-methyl-D-aspartate receptor clustering
+      2 nitric oxide mediated signal transduction
+      2 neuron projection terminus
+      2 neuron apoptotic process
+      2 neuronal postsynaptic density
+      2 neurological system process
+      2 neural retina development
+      2 negative regulation of type B pancreatic cell apoptotic process
+      2 negative regulation of synapse maturation
+      2 negative regulation of signal transduction
+      2 negative regulation of protein catabolic process
+      2 negative regulation of peptidase activity
+      2 negative regulation of osteoblast proliferation
+      2 negative regulation of neuron death
+      2 negative regulation of G-protein coupled receptor protein signaling pathway
+      2 negative regulation of filopodium assembly
+      2 negative regulation of cyclin catabolic process
+      2 negative regulation of coagulation
+      2 negative regulation of cell proliferation
+      2 negative regulation of cell adhesion
+      2 negative regulation of blood pressure
+      2 muscle contraction
+      2 multicellular organism growth
+      2 mRNA processing
+      2 mRNA cap binding complex
+      2 mRNA binding
+      2 monovalent inorganic cation transport
+      2 mitotic nuclear division
+      2 mitotic cell cycle
+      2 microtubule-based movement
+      2 metalloendopeptidase activity
+      2 membrane hyperpolarization
+      2 melanosome transport
+      2 melanosome localization
+      2 melanin-concentrating hormone receptor activity
+      2 MAP kinase tyrosine/serine/threonine phosphatase activity
+      2 male meiosis I
+      2 lipid binding
+      2 ligand-gated sodium channel activity
+      2 ligand-activated sequence-specific DNA binding RNA polymerase II transcription factor activity
+      2 ionotropic glutamate receptor binding
+      2 ion channel inhibitor activity
+      2 intracellular transport
+      2 intracellular receptor signaling pathway
+      2 intracellular cAMP activated cation channel activity
+      2 intercalated disc
+      2 inner ear development
+      2 innate immune response
+      2 inhibitory synapse
+      2 hyaluronic acid binding
+      2 homologous chromosome movement towards spindle pole involved in homologous chromosome segregation
+      2 HMG box domain binding
+      2 histone deacetylase binding
+      2 hippocampus development
+      2 heparan sulfate proteoglycan biosynthetic process, enzymatic modification
+      2 [heparan sulfate]-glucosamine 3-sulfotransferase 1 activity
+      2 hemopoiesis
+      2 hedgehog family protein binding
+      2 guanylate kinase-associated protein clustering
+      2 grooming behavior
+      2 G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger
+      2 glycosaminoglycan biosynthetic process
+      2 gamma-catenin binding
+      2 gamma-aminobutyric acid transport
+      2 gamma-aminobutyric acid receptor clustering
+      2 GABA receptor binding
+      2 G2/M transition of mitotic cell cycle
+      2 G1/S transition of mitotic cell cycle
+      2 formin-nucleated actin cable assembly
+      2 forebrain anterior/posterior pattern specification
+      2 feeding behavior
+      2 fatty acid beta-oxidation
+      2 establishment of protein localization
+      2 establishment of meiotic spindle localization
+      2 epithelial tube branching involved in lung morphogenesis
+      2 enteroendocrine cell differentiation
+      2 endosome
+      2 embryonic organ morphogenesis
+      2 early endosome membrane
+      2 dynein complex
+      2 double-stranded DNA binding
+      2 dopamine metabolic process
+      2 determination of left/right symmetry
+      2 detection of chemical stimulus involved in sensory perception of sour taste
+      2 dendrite self-avoidance
+      2 dendrite morphogenesis
+      2 delta-catenin binding
+      2 defense response to virus
+      2 defense response to bacterium
+      2 copper ion binding
+      2 conditioned taste aversion
+      2 circadian rhythm
+      2 chondroitin sulfate metabolic process
+      2 chemokine receptor activity
+      2 chemokine-mediated signaling pathway
+      2 cerebral cortex regionalization
+      2 cerebral cortex development
+      2 cerebellar Purkinje cell layer development
+      2 cerebellar cortex development
+      2 cellular response to retinoic acid
+      2 cellular response to glucose stimulus
+      2 cellular response to glucagon stimulus
+      2 cellular response to catecholamine stimulus
+      2 cellular response to calcium ion
+      2 cellular protein metabolic process
+      2 cellular nitrogen compound metabolic process
+      2 cellular ion homeostasis
+      2 cell proliferation
+      2 cation transmembrane transporter activity
+      2 cation:chloride symporter activity
+      2 carbonate dehydratase activity
+      2 carbohydrate phosphorylation
+      2 canonical Wnt signaling pathway
+      2 cAMP biosynthetic process
+      2 cAMP binding
+      2 calcium-dependent cell-cell adhesion
+      2 calcium channel complex
+      2 calcium channel activity
+      2 cadherin binding
+      2 behavioral response to cocaine
+      2 behavior
+      2 axon terminus
+      2 axoneme
+      2 axonal growth cone
+      2 astrocyte projection
+      2 astrocyte development
+      2 arginine catabolic process
+      2 arginine binding
+      2 anterior/posterior pattern specification
+      2 anion:anion antiporter activity
+      2 amino acid transmembrane transport
+      2 alpha-catenin binding
+      2 alpha-actinin binding
+      2 ADP receptor activity
+      2 adenylate cyclase-inhibiting opioid receptor signaling pathway
+      2 adenylate cyclase binding
+      2 adenosylmethionine decarboxylase activity
+      2 3'-phosphoadenosine 5'-phosphosulfate binding
+      1 zinc ion transmembrane transporter activity
+      1 zinc ion transmembrane import
+      1 XY body
+      1 xenobiotic metabolic process
+      1 Wnt signaling pathway involved in wound healing, spreading of epidermal cells
+      1 water transport
+      1 vitamin A metabolic process
+      1 vesicle
+      1 very long-chain fatty acid metabolic process
+      1 very long-chain fatty acid catabolic process
+      1 vasodilation
+      1 uterus morphogenesis
+      1 uterus development
+      1 urinary bladder smooth muscle contraction
+      1 ubiquitin-specific protease activity
+      1 ubiquitin conjugating enzyme binding
+      1 tyrosine binding
+      1 type B pancreatic cell differentiation
+      1 tumor necrosis factor-mediated signaling pathway
+      1 tRNA binding
+      1 transport vesicle membrane
+      1 transforming growth factor beta receptor signaling pathway
+      1 transcription regulatory region DNA binding
+      1 transcription coactivator activity
+      1 trachea cartilage morphogenesis
+      1 tissue development
+      1 thyroid hormone generation
+      1 thiolester hydrolase activity
+      1 thermosensory behavior
+      1 thalamus development
+      1 telencephalon regionalization
+      1 telencephalon cell migration
+      1 syntaxin binding
+      1 synaptic cleft
+      1 synapsis
+      1 sulfate transport
+      1 suckling behavior
+      1 substantia nigra development
+      1 subpallium development
+      1 sterol metabolic process
+      1 steroid metabolic process
+      1 steroid hydroxylase activity
+      1 steroid binding
+      1 steroid 21-monooxygenase activity
+      1 stem cell development
+      1 startle response
+      1 SRP-dependent cotranslational protein targeting to membrane
+      1 spindle
+      1 spinal cord oligodendrocyte cell fate specification
+      1 spinal cord oligodendrocyte cell differentiation
+      1 spinal cord motor neuron differentiation
+      1 spinal cord development
+      1 sphingosine-1-phosphate signaling pathway
+      1 sphingosine-1-phosphate receptor activity
+      1 sperm ejaculation
+      1 specification of organ identity
+      1 somatic stem cell division
+      1 sodium:sulfate symporter activity
+      1 sodium ion binding
+      1 sodium:iodide symporter activity
+      1 SNARE binding
+      1 skin development
+      1 skeletal muscle satellite cell maintenance involved in skeletal muscle regeneration
+      1 signal recognition particle
+      1 short-term memory
+      1 SH2 domain binding
+      1 sex differentiation
+      1 sensory perception of taste
+      1 selenocysteine incorporation
+      1 second-messenger-mediated signaling
+      1 sarcolemma
+      1 salivary gland morphogenesis
+      1 rough endoplasmic reticulum lumen
+      1 rough endoplasmic reticulum
+      1 RNA splicing
+      1 RNA polymerase II regulatory region sequence-specific DNA binding
+      1 RNA polymerase II distal enhancer sequence-specific DNA binding transcription factor activity
+      1 RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription
+      1 RNA polymerase II activating transcription factor binding
+      1 rhombomere morphogenesis
+      1 rhodopsin mediated signaling pathway
+      1 retinol binding
+      1 retinoid metabolic process
+      1 response to xenobiotic stimulus
+      1 response to UV
+      1 response to steroid hormone
+      1 response to progesterone
+      1 response to peptide hormone
+      1 response to pain
+      1 response to oxidative stress
+      1 response to organic cyclic compound
+      1 response to nicotine
+      1 response to nickel cation
+      1 response to mechanical stimulus
+      1 response to lipopolysaccharide
+      1 response to ionizing radiation
+      1 response to hypoxia
+      1 response to glucocorticoid
+      1 response to ethanol
+      1 response to estrogen
+      1 response to cytokine
+      1 response to cold
+      1 response to biotic stimulus
+      1 response to bacterium
+      1 response to anoxia
+      1 response to acidity
+      1 replicative senescence
+      1 regulation of vasoconstriction
+      1 regulation of transcription from RNA polymerase II promoter involved in ventral spinal cord interneuron specification
+      1 regulation of transcription from RNA polymerase II promoter involved in spinal cord motor neuron fate specification
+      1 regulation of transcription from RNA polymerase II promoter involved in somatic motor neuron fate commitment
+      1 regulation of transcription from RNA polymerase II promoter involved in forebrain neuron fate commitment
+      1 regulation of timing of neuron differentiation
+      1 regulation of timing of cell differentiation
+      1 regulation of systemic arterial blood pressure by vasopressin
+      1 regulation of systemic arterial blood pressure by aortic arch baroreceptor feedback
+      1 regulation of synapse structural plasticity
+      1 regulation of synapse organization
+      1 regulation of smooth muscle contraction
+      1 regulation of smoothened signaling pathway
+      1 regulation of signal transduction by p53 class mediator
+      1 regulation of sensory perception of pain
+      1 regulation of rhodopsin mediated signaling pathway
+      1 regulation of response to drug
+      1 regulation of presynaptic membrane organization
+      1 regulation of potassium ion transport
+      1 regulation of pH
+      1 regulation of organ growth
+      1 regulation of neurogenesis
+      1 regulation of microtubule polymerization
+      1 regulation of MAPK cascade
+      1 regulation of long term synaptic depression
+      1 regulation of locomotion
+      1 regulation of lipid transport
+      1 regulation of JNK cascade
+      1 regulation of intracellular protein transport
+      1 regulation of heart rate
+      1 regulation of fibroblast growth factor receptor signaling pathway
+      1 regulation of female receptivity
+      1 regulation of extrinsic apoptotic signaling pathway
+      1 regulation of ERBB signaling pathway
+      1 regulation of dopamine uptake involved in synaptic transmission
+      1 regulation of dopamine secretion
+      1 regulation of dopamine metabolic process
+      1 regulation of digestive system process
+      1 regulation of dendrite morphogenesis
+      1 regulation of dendrite development
+      1 regulation of chloride transport
+      1 regulation of cellular respiration
+      1 regulation of cellular component organization
+      1 regulation of cell migration involved in sprouting angiogenesis
+      1 regulation of cell migration
+      1 regulation of cell differentiation
+      1 regulation of calcium-mediated signaling
+      1 regulation of bone remodeling
+      1 regulation of axon diameter
+      1 regulation of atrial cardiac muscle cell membrane depolarization
+      1 regulation of apoptotic process
+      1 regulation of alternative mRNA splicing, via spliceosome
+      1 recycling endosome
+      1 recognition of apoptotic cell
+      1 receptor clustering
+      1 receptor agonist activity
+      1 reactive oxygen species metabolic process
+      1 quaternary ammonium group transport
+      1 quaternary ammonium group transmembrane transporter activity
+      1 proximal/distal pattern formation
+      1 protein stabilization
+      1 protein secretion
+      1 protein processing
+      1 protein phosphatase binding
+      1 protein peptidyl-prolyl isomerization
+      1 protein palmitoylation
+      1 protein N-terminus binding
+      1 protein methylation
+      1 protein-lysine N-methyltransferase activity
+      1 protein localization to plasma membrane
+      1 protein localization to organelle
+      1 protein localization to cytoskeleton
+      1 protein kinase C binding
+      1 protein kinase B signaling
+      1 protein K11-linked deubiquitination
+      1 protein import into nucleus
+      1 protein homotrimerization
+      1 protein glycosylation
+      1 protein-cysteine S-palmitoyltransferase activity
+      1 protein complex binding
+      1 protein complex
+      1 protein autophosphorylation
+      1 proline transmembrane transport
+      1 proline:sodium symporter activity
+      1 presynaptic active zone membrane
+      1 prepulse inhibition
+      1 potassium ion transmembrane transporter activity
+      1 potassium channel complex
+      1 post-embryonic retina morphogenesis in camera-type eye
+      1 post-anal tail morphogenesis
+      1 positive regulation of vasodilation
+      1 positive regulation of uterine smooth muscle contraction
+      1 positive regulation of transmission of nerve impulse
+      1 positive regulation of transcription regulatory region DNA binding
+      1 positive regulation of synapse structural plasticity
+      1 positive regulation of stem cell proliferation
+      1 positive regulation of sodium ion transport
+      1 positive regulation of release of sequestered calcium ion into cytosol
+      1 positive regulation of protein secretion
+      1 positive regulation of potassium ion transport
+      1 positive regulation of phosphatidylinositol 3-kinase signaling
+      1 positive regulation of peptidyl-tyrosine phosphorylation
+      1 positive regulation of penile erection
+      1 positive regulation of oligodendrocyte differentiation
+      1 positive regulation of norepinephrine secretion
+      1 positive regulation of neuron migration
+      1 positive regulation of neuron apoptotic process
+      1 positive regulation of neuroblast proliferation
+      1 positive regulation of neural precursor cell proliferation
+      1 positive regulation of multicellular organism growth
+      1 positive regulation of MAP kinase activity
+      1 positive regulation of long-term neuronal synaptic plasticity
+      1 positive regulation of leukocyte migration
+      1 positive regulation of leukocyte mediated cytotoxicity
+      1 positive regulation of kinase activity
+      1 positive regulation of killing of cells of other organism
+      1 positive regulation of ion transport
+      1 positive regulation of interleukin-1 beta secretion
+      1 positive regulation of glucagon secretion
+      1 positive regulation of gamma-aminobutyric acid secretion
+      1 positive regulation of fatty acid beta-oxidation
+      1 positive regulation of fat cell differentiation
+      1 positive regulation of epithelial cell proliferation involved in wound healing
+      1 positive regulation of epithelial cell differentiation
+      1 positive regulation of epidermal growth factor receptor signaling pathway
+      1 positive regulation of dendrite development
+      1 positive regulation of cellular pH reduction
+      1 positive regulation of cell fate specification
+      1 positive regulation of cell cycle
+      1 positive regulation of cation channel activity
+      1 positive regulation of catalytic activity
+      1 positive regulation of calcium ion transport
+      1 positive regulation of blood pressure
+      1 positive regulation of angiogenesis
+      1 positive regulation of adenylate cyclase activity
+      1 positive regulation of action potential
+      1 poly(U) RNA binding
+      1 poly(A) binding
+      1 plasma membrane organization
+      1 pituitary gland development
+      1 phospholipase C-activating serotonin receptor signaling pathway
+      1 phosphatidylserine binding
+      1 phosphatidylinositol-mediated signaling
+      1 phosphatidylinositol dephosphorylation
+      1 phosphatidylinositol-4,5-bisphosphate binding
+      1 phosphatidylinositol-3,4,5-trisphosphate binding
+      1 phosphatidylcholine binding
+      1 phagosome maturation
+      1 phagocytosis
+      1 peroxisomal membrane
+      1 peristalsis
+      1 peripheral nervous system myelin maintenance
+      1 perineuronal net
+      1 pericardium development
+      1 peptidyl-serine phosphorylation
+      1 peptidyl-prolyl cis-trans isomerase activity
+      1 peptidyl-lysine methylation
+      1 peptide hormone binding
+      1 pattern specification process
+      1 paraxial mesoderm development
+      1 paranode region of axon
+      1 pancreatic PP cell fate commitment
+      1 pancreatic A cell fate commitment
+      1 pancreatic A cell differentiation
+      1 pallium development
+      1 oxytocin receptor activity
+      1 oxidative stress-induced premature senescence
+      1 oviduct development
+      1 ovarian follicle development
+      1 outward rectifier potassium channel activity
+      1 osteoblast differentiation
+      1 optic nerve structural organization
+      1 optic nerve development
+      1 optic cup formation involved in camera-type eye development
+      1 operant conditioning
+      1 oligodendrocyte differentiation
+      1 oligodendrocyte cell fate specification
+      1 odontogenesis of dentin-containing tooth
+      1 nuclear membrane
+      1 nose development
+      1 norepinephrine-epinephrine vasoconstriction involved in regulation of systemic arterial blood pressure
+      1 norepinephrine biosynthetic process
+      1 non-membrane spanning protein tyrosine kinase activity
+      1 non-canonical Wnt signaling pathway
+      1 nickel cation binding
+      1 neurotransmitter-gated ion channel clustering
+      1 neurotransmitter binding
+      1 neuropeptide Y receptor activity
+      1 neuron projection extension
+      1 neuron-neuron synaptic transmission
+      1 neuron migration
+      1 neuron maturation
+      1 neuronal signal transduction
+      1 neuronal cell body membrane
+      1 neuronal action potential propagation
+      1 neuromuscular process controlling posture
+      1 neuromuscular process
+      1 neuromuscular junction development
+      1 neuromuscular junction
+      1 neurohypophysis development
+      1 neurogenesis
+      1 neurofilament
+      1 neuroblast proliferation
+      1 neural tube patterning
+      1 neural tube closure
+      1 neural precursor cell proliferation
+      1 neural crest cell migration
+      1 negative regulation of vesicle fusion
+      1 negative regulation of synaptic transmission
+      1 negative regulation of receptor internalization
+      1 negative regulation of protein kinase activity
+      1 negative regulation of protein binding
+      1 negative regulation of potassium ion transport
+      1 negative regulation of oligodendrocyte differentiation
+      1 negative regulation of Notch signaling pathway
+      1 negative regulation of norepinephrine secretion
+      1 negative regulation of NF-kappaB transcription factor activity
+      1 negative regulation of neuron projection development
+      1 negative regulation of neural precursor cell proliferation
+      1 negative regulation of NAD(P)H oxidase activity
+      1 negative regulation of locomotion
+      1 negative regulation of JAK-STAT cascade
+      1 negative regulation of insulin secretion
+      1 negative regulation of gastric acid secretion
+      1 negative regulation of epithelial cell proliferation
+      1 negative regulation of epinephrine secretion
+      1 negative regulation of DNA binding
+      1 negative regulation of dendrite development
+      1 negative regulation of cell growth
+      1 negative regulation of cell differentiation
+      1 negative regulation of cell death
+      1 negative regulation of cell-cell adhesion
+      1 negative regulation of cAMP metabolic process
+      1 negative regulation of calcium ion-dependent exocytosis
+      1 negative regulation of bone mineralization
+      1 negative regulation of axon extension involved in regeneration
+      1 negative regulation of axon extension
+      1 negative regulation of astrocyte differentiation
+      1 NADP metabolic process
+      1 NADPH-hemoprotein reductase activity
+      1 muscle fiber development
+      1 muscle alpha-actinin binding
+      1 multicellular organismal response to stress
+      1 morphogenesis of embryonic epithelium
+      1 mitotic G2 DNA damage checkpoint
+      1 mitogen-activated protein kinase kinase binding
+      1 mineralocorticoid biosynthetic process
+      1 metallopeptidase activity
+      1 metalloendopeptidase inhibitor activity
+      1 metallocarboxypeptidase activity
+      1 membrane raft
+      1 membrane organization
+      1 melanosome organization
+      1 melanosome membrane
+      1 melanosome
+      1 meiotic chromosome movement towards spindle pole
+      1 maternal process involved in parturition
+      1 MAP-kinase scaffold activity
+      1 manganese ion binding
+      1 mammary placode formation
+      1 mammary gland development
+      1 male meiosis
+      1 lysosomal membrane
+      1 lysosomal lumen
+      1 lyase activity
+      1 lung growth
+      1 locomotory exploration behavior
+      1 liver development
+      1 lipid homeostasis
+      1 limb morphogenesis
+      1 limb development
+      1 ligand-gated ion channel activity
+      1 L-glutamate transport
+      1 leukocyte mediated immunity
+      1 lens fiber cell differentiation
+      1 lens fiber cell development
+      1 lens development in camera-type eye
+      1 learning or memory
+      1 L-DOPA receptor activity
+      1 L-DOPA binding
+      1 layer formation in cerebral cortex
+      1 lateral ventricle development
+      1 L-ascorbic acid binding
+      1 lactation
+      1 lacrimal gland development
+      1 kidney development
+      1 keratinocyte proliferation
+      1 ion gated channel activity
+      1 ion channel binding
+      1 iodide transport
+      1 iodide transmembrane transporter activity
+      1 intrinsic apoptotic signaling pathway in response to osmotic stress
+      1 intrinsic apoptotic signaling pathway in response to DNA damage
+      1 intracellular organelle
+      1 interkinetic nuclear migration
+      1 interaction with host
+      1 insulin secretion
+      1 insulin metabolic process
+      1 inositol phosphate dephosphorylation
+      1 innate immune response in mucosa
+      1 inhibitory extracellular ligand-gated ion channel activity
+      1 inflammatory response
+      1 inactivation of MAPK activity
+      1 IkappaB kinase complex
+      1 hypothalamus cell differentiation
+      1 hormone binding
+      1 hormone activity
+      1 homoiothermy
+      1 homeostatic process
+      1 histone phosphorylation
+      1 hexokinase activity
+      1 heterotrimeric G-protein complex
+      1 heparin biosynthetic process
+      1 heparan sulfate proteoglycan biosynthetic process
+      1 heparan sulfate proteoglycan binding
+      1 [heparan sulfate]-glucosamine N-sulfotransferase activity
+      1 hemostasis
+      1 hematopoietic progenitor cell differentiation
+      1 hedgehog receptor activity
+      1 heart development
+      1 head development
+      1 habituation
+      1 G-protein coupled receptor binding
+      1 G-protein coupled purinergic nucleotide receptor signaling pathway
+      1 G-protein coupled neurotensin receptor activity
+      1 G-protein coupled adenosine receptor activity
+      1 G-protein coupled acetylcholine receptor signaling pathway
+      1 G-protein coupled acetylcholine receptor activity
+      1 G-protein beta-subunit binding
+      1 G-protein alpha-subunit binding
+      1 G-protein activated inward rectifier potassium channel activity
+      1 GO Term Name
+      1 Golgi stack
+      1 glycogen biosynthetic process
+      1 glycine transmembrane transporter activity
+      1 glutathione transport
+      1 glutamate secretion
+      1 glutamate receptor binding
+      1 glucose metabolic process
+      1 glucose import
+      1 glucose 6-phosphate metabolic process
+      1 glucocorticoid biosynthetic process
+      1 glial cell migration
+      1 generation of precursor metabolites and energy
+      1 gamma-aminobutyric acid:sodium symporter activity
+      1 gamma-aminobutyric acid:proton symporter activity
+      1 fructose 2,6-bisphosphate metabolic process
+      1 forebrain ventricular zone progenitor cell division
+      1 forebrain neuron differentiation
+      1 forebrain-midbrain boundary formation
+      1 forebrain generation of neurons
+      1 forebrain dorsal/ventral pattern formation
+      1 FK506 binding
+      1 filopodium
+      1 fibroblast growth factor receptor signaling pathway
+      1 fertilization
+      1 female pregnancy
+      1 fear response
+      1 eye pigment biosynthetic process
+      1 extracellular matrix disassembly
+      1 external side of plasma membrane
+      1 exploration behavior
+      1 estrous cycle phase
+      1 establishment of cell polarity
+      1 ERK1 and ERK2 cascade
+      1 epithelial cell development
+      1 epidermal growth factor receptor signaling pathway
+      1 enzyme inhibitor activity
+      1 enzyme binding
+      1 enzyme activator activity
+      1 entrainment of circadian clock
+      1 endopeptidase activity
+      1 endocytic vesicle
+      1 endochondral ossification
+      1 embryonic skeletal system development
+      1 embryonic limb morphogenesis
+      1 embryonic digit morphogenesis
+      1 embryonic cranial skeleton morphogenesis
+      1 embryonic camera-type eye morphogenesis
+      1 embryonic axis specification
+      1 eating behavior
+      1 dorsal/ventral axis specification
+      1 dopamine transport
+      1 dopamine receptor signaling pathway
+      1 dopamine catabolic process
+      1 dopamine beta-monooxygenase activity
+      1 digestive tract development
+      1 development of primary female sexual characteristics
+      1 detection of temperature stimulus involved in sensory perception of pain
+      1 detection of mechanical stimulus involved in sensory perception of pain
+      1 detection of mechanical stimulus involved in sensory perception
+      1 detection of mechanical stimulus
+      1 desensitization of G-protein coupled receptor protein signaling pathway
+      1 dermatan sulfate biosynthetic process
+      1 dense core granule
+      1 dendrite terminus
+      1 dendrite development
+      1 dendrite cytoplasm
+      1 defense response to Gram-negative bacterium
+      1 cytoskeletal protein binding
+      1 cytokine production
+      1 cytokine activity
+      1 cystine:glutamate antiporter activity
+      1 craniofacial suture morphogenesis
+      1 co-SMAD binding
+      1 cortical cytoskeleton
+      1 corpus callosum development
+      1 cone cell pedicle
+      1 compartment pattern specification
+      1 commitment of neuronal cell to specific neuron type in forebrain
+      1 collagen catabolic process
+      1 clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane
+      1 clathrin binding
+      1 cilium morphogenesis
+      1 cilium assembly
+      1 ciliary membrane
+      1 chromatoid body
+      1 chromatin
+      1 chromaffin granule membrane
+      1 chromaffin granule lumen
+      1 chondroitin sulfate catabolic process
+      1 chondroitin sulfate biosynthetic process
+      1 chondrocyte proliferation
+      1 chondrocyte differentiation
+      1 cholesterol homeostasis
+      1 chloride ion binding
+      1 chaperone-mediated protein folding
+      1 cGMP binding
+      1 cerebral cortex radially oriented cell migration
+      1 cerebral cortex GABAergic interneuron fate commitment
+      1 cerebral cortex GABAergic interneuron differentiation
+      1 central nervous system vasculogenesis
+      1 cellular response to transforming growth factor beta stimulus
+      1 cellular response to prostaglandin E stimulus
+      1 cellular response to organic substance
+      1 cellular response to lipopolysaccharide
+      1 cellular response to interferon-gamma
+      1 cellular response to hypoxia
+      1 cellular response to gonadotropin stimulus
+      1 cellular response to glucose starvation
+      1 cellular response to fibroblast growth factor stimulus
+      1 cellular response to drug
+      1 cellular response to acid
+      1 cell tip
+      1 cell proliferation in forebrain
+      1 cell projection organization
+      1 cell morphogenesis
+      1 cell fate determination
+      1 cell-cell adherens junction
+      1 cell body fiber
+      1 catecholamine biosynthetic process
+      1 cartilage development
+      1 cartilage condensation
+      1 cardiovascular system development
+      1 cardiac epithelial to mesenchymal transition
+      1 calcium sensitive guanylate cyclase activator activity
+      1 calcium-mediated signaling using intracellular calcium source
+      1 calcium-mediated signaling
+      1 calcium ion transport into cytosol
+      1 calcium ion import into cell
+      1 calcium ion export from cell
+      1 calcium:cation antiporter activity
+      1 calcium- and calmodulin-responsive adenylate cyclase activity
+      1 calcium activated cation channel activity
+      1 cadmium ion binding
+      1 brush border membrane
+      1 brain morphogenesis
+      1 bone remodeling
+      1 bone morphogenesis
+      1 bone mineralization
+      1 bone development
+      1 blood vessel remodeling
+      1 bile acid metabolic process
+      1 bile acid and bile salt transport
+      1 beta-tubulin binding
+      1 behavioral response to pain
+      1 behavioral response to ethanol
+      1 basal plasma membrane
+      1 basal cortex
+      1 axon ensheathment
+      1 axonal fasciculation
+      1 axis specification
+      1 autosome
+      1 A-type (transient outward) potassium channel activity
+      1 ATPase activity, coupled to transmembrane movement of substances
+      1 AT DNA binding
+      1 asymmetric protein localization
+      1 astrocyte differentiation
+      1 artery smooth muscle contraction
+      1 apical protein localization
+      1 apical dendrite
+      1 antigen processing and presentation
+      1 anterior/posterior axon guidance
+      1 anterior commissure morphogenesis
+      1 angiogenesis
+      1 amygdala development
+      1 alpha-tubulin binding
+      1 alpha-amino-3-hydroxy-5-methyl-4-isoxazole propionate selective glutamate receptor clustering
+      1 aggressive behavior
+      1 ADP binding
+      1 adenylate cyclase-modulating G-protein coupled receptor signaling pathway
+      1 adenylate cyclase-inhibiting G-protein coupled acetylcholine receptor signaling pathway
+      1 adenosine receptor signaling pathway
+      1 activation of protein kinase A activity
+      1 activation of MAPKKK activity
+      1 activation of MAPKK activity
+      1 actin nucleation
+      1 actin filament bundle assembly
+      1 A2A adenosine receptor binding
+      1 7S RNA binding
+      1 3',5'-cyclic-nucleotide phosphodiesterase activity
+      1 3',5'-cyclic-GMP phosphodiesterase activity
+      1 11-cis retinal binding

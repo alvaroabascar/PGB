@@ -43,3 +43,21 @@ CREATE TABLE ortholog_genes (
   dnds FLOAT
 );
 
+-- Gene ontology terms
+
+DROP TABLE IF EXISTS gene_ontology_terms;
+CREATE TABLE gene_ontology_terms (
+  id INTEGER PRIMARY KEY NOT NULL,
+
+  accession VARCHAR(255) NOT NULL UNIQUE,
+  name VARCHAR(255) NOT NULL,
+  domain VARCHAR(255) NOT NULL
+);
+
+DROP TABLE IF EXISTS gene_ontology_terms_genes;
+CREATE TABLE gene_ontology_terms_genes (
+  id INTEGER PRIMARY KEY NOT NULL,
+
+  gene_ontology_term_id INTEGER NOT NULL,
+  gene_id INTEGER NOT NULL
+);

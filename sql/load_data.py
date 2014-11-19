@@ -59,6 +59,28 @@ with gzip.open(biotype_file, mode='rt') as csv_file:
         if row['Ensembl Gene ID'] and row['Gene Biotype']:
             db_cursor.execute("UPDATE genes SET biotype = ? WHERE ensembl_id = ?", [row['Gene Biotype'], row['Ensembl Gene ID']])
 
+# fill in gene ontology values
+go_file = "../data/absolutely_all_genes_go.txt.gz"
+with gzip.open(go_file, mode='rt') as csv_file:
+    # create reader
+    reader = csv.DictReader(csv_file, delimiter="\t")
+
+    go_terms = {}
+
+    for row in reader:
+        accession = row['GO Term Accession']
+        # if not exists gene ontology term create term
+        if accession:
+            if not accession in go_terms:
+                db_cursor.execute("INSERT INTO gene_ontology_terms (accession, name, domain) VALUES (?,?,?)", [accession, row['GO Term Name'], row['GO domain']])
+                go_terms[accession] = db_cursor.lastrowid
+
+            db_cursor.execute("SELECT id FROM genes WHERE ensembl_id = ?", [row['Ensembl Gene ID']])
+            gene_id = db_cursor.fetchone()[0]
+
+            if gene_id:
+                db_cursor.execute("INSERT INTO gene_ontology_terms_genes (gene_id, gene_ontology_term_id) VALUES (?,?)", [gene_id, go_terms[accession]])
+
 db_connection.commit()
 db_connection.close()
 

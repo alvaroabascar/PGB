@@ -1,13 +1,8 @@
 -- HOUSEKEEPING
-DROP VIEW IF EXISTS housekeeping_gene_expressions;
-CREATE VIEW housekeeping_gene_expressions AS
-  SELECT
-    g.ensembl_id as gene_ensembl_id,
-    g.biotype as gene_biotype,
-    e.gene_id,
-    t.name as tissue,
-    e.tissue_id,
-    e.expression
+DROP VIEW IF EXISTS housekeeping_genes;
+CREATE VIEW housekeeping_genes AS
+  SELECT DISTINCT
+    g.*
   FROM
     (
       SELECT
@@ -19,24 +14,15 @@ CREATE VIEW housekeeping_gene_expressions AS
       GROUP BY gene_id
       HAVING COUNT(tissue_id) = (SELECT COUNT(*) FROM tissues)
     ) AS subgenes,
-    genes g,
-    tissues t,
-    expressions e
+    genes g
   WHERE
-    e.gene_id = subgenes.gene_id AND
-    g.id = e.gene_id AND
-    t.id = e.tissue_id;
+    g.id = subgenes.gene_id;
 
 -- ALL GENES
-DROP VIEW IF EXISTS all_gene_expressions;
-CREATE VIEW all_gene_expressions AS
-  SELECT
-    g.ensembl_id as gene_ensembl_id,
-    g.biotype as gene_biotype,
-    e.gene_id,
-    t.name as tissue,
-    e.tissue_id,
-    e.expression
+DROP VIEW IF EXISTS all_genes;
+CREATE VIEW all_genes AS
+  SELECT DISTINCT
+    g.*
   FROM
     (
       SELECT
@@ -48,30 +34,20 @@ CREATE VIEW all_gene_expressions AS
       GROUP BY gene_id
       HAVING COUNT(tissue_id) >= 1
     ) AS subgenes,
-    genes g,
-    tissues t,
-    expressions e
+    genes g
   WHERE
-    e.gene_id = subgenes.gene_id AND
-    g.id = e.gene_id AND
-    t.id = e.tissue_id;
+    g.id = subgenes.gene_id;
 
 -- TISSUE SPECIFIC GENES
-DROP VIEW IF EXISTS tissue_specific_gene_expressions;
-CREATE VIEW tissue_specific_gene_expressions AS
+DROP VIEW IF EXISTS tissue_specific_genes;
+CREATE VIEW tissue_specific_genes AS
   SELECT
-    g.ensembl_id as gene_ensembl_id,
-    g.biotype as gene_biotype,
-    e.tissue_id,
-    e.gene_id,
-    e.expression,
-    t2.name as specified_tissue,
-    t2.id as specified_tissue_id
+    g.*,
+    t.id AS specific_tissue_id,
+    t.name AS specific_tissue_name
   FROM
     genes g,
     tissues t,
-    tissues t2,
-    expressions e,
     (
       SELECT
         e.gene_id, e.tissue_id
@@ -92,7 +68,5 @@ CREATE VIEW tissue_specific_gene_expressions AS
         e.expression > 1
     ) as gt
   WHERE
-    gt.gene_id = e.gene_id AND
-    g.id = e.gene_id AND
-    t2.id = gt.tissue_id AND
-    t.id = e.tissue_id;
+    gt.gene_id = g.id AND
+    t.id = gt.tissue_id;

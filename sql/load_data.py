@@ -35,8 +35,8 @@ with gzip.open(main_file, mode='rt') as csv_file:
                 db_cursor.execute("INSERT INTO expressions (gene_id, tissue_id, expression) VALUES (?,?,?)", [gene_id, tissue_ids[key], value])
 
 # fill in dn and ds values in mouse orthologs
-dnds_file = "../data/absolutely_all_genes_dnds.txt"
-with open(dnds_file, mode='rt') as csv_file:
+dnds_file = "../data/absolutely_all_genes_dnds.txt.gz"
+with gzip.open(dnds_file, mode='rt') as csv_file:
     # create reader
     reader = csv.DictReader(csv_file, delimiter="\t")
 
@@ -50,8 +50,8 @@ with open(dnds_file, mode='rt') as csv_file:
                 db_cursor.execute("INSERT INTO ortholog_genes (species, ensembl_id, gene_id, dn, ds, dnds) VALUES (?, ?, ?, ?, ?, ?)", ['Mus musculus', row['Mouse Ensembl Gene ID'], gene_id, float(row['dN']), float(row['dS']), float(row['dN'])/float(row['dS'])])
 
 # fill in dn and ds values in mouse orthologs
-biotype_file = "../data/absolutely_all_genes_biotype.txt"
-with open(biotype_file, mode='rt') as csv_file:
+biotype_file = "../data/absolutely_all_genes_biotype.txt.gz"
+with gzip.open(biotype_file, mode='rt') as csv_file:
     # create reader
     reader = csv.DictReader(csv_file, delimiter="\t")
 

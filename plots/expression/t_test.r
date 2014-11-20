@@ -34,7 +34,7 @@ WHERE
 data = sqldf(query, dbname=database)
 
 # all quantitative variables, transformed to decimal logarithm
-expression = log10(data$expression + 0.0000001)
+expression = data$expression
 tissue = data$tissue
 
 if(Sys.info()['sysname'] == "Darwin") {
@@ -43,4 +43,4 @@ if(Sys.info()['sysname'] == "Darwin") {
   x11()
 }
 
-boxplot(expression~tissue)
+pairwise.wilcox.test(expression, tissue, p.adjust.method="BF")

@@ -3,8 +3,13 @@
 library(reshape2)
 library(ggplot2)
 library(scales)
+
+figure_title = 'Overall gene expressions across all tissues'
+genes_path = "../genes/all_genes.txt"
+out_file = "expressions/boxplot_expr_all.png"
+
 # all data
-data = read.csv("../genes/all_genes.txt", header=TRUE, sep="\t", skip=1)
+data = read.csv(genes_path, header=TRUE, sep="\t", skip=1)
 
 # all quantitative variables, transformed to decimal logarithm
 num.data = subset(data, select=c(-Gene, -Protein)) + 1e-7
@@ -15,23 +20,17 @@ num.data = subset(data, select=c(-Gene, -Protein)) + 1e-7
 #   x11()
 # }
 
-png(filename='boxplot_expr_all.png', height=6, width=6, units='in', res=300)
+png(filename=out_file, height=6, width=6, units='in', res=300)
 # down, left, up, right margins
 par(mar=c(12, 5.1, 4.1, 2.1))
 
 # colors of each kind of box
-different <- "#ff2222"
-similar <- "#ffff66"
-cortex <- "#55ff55"
-outliers <- "#222222"
-colors <- c(different, rep(similar, 17), cortex)
-
 ylabel <- expression('Expression (rpkm)')
 
 d <- melt(num.data, value.name="expr")
 colnames(d) = c('Tissue', 'Expression')
 q <- qplot(Tissue, Expression, data=d, geom=c("boxplot"), ylab=ylabel,
-           main = 'Overview of gene expressions across all tissues',
+           main = figure_title,
            axes=FALSE)
 
 q = q + theme(axis.text.x=element_text(angle = 60, hjust = 1, colour='black'),

@@ -1,12 +1,18 @@
 #!/usr/bin/env Rscript
 
-source('colors.r')
+library(reshape2)
+library(ggplot2)
+library(scales)
+
+figure_title = 'Housekeeping gene expression across all tissues'
+genes_path = "../genes/housekeeping.txt"
+out_file = "expressions/boxplot_expr_hk.png"
 
 # all data
-data = read.csv("../genes/house_keeping.txt", header=TRUE, sep="\t", skip=1)
+data = read.csv(genes_path, header=TRUE, sep="\t", skip=1)
 
 # all quantitative variables, transformed to decimal logarithm
-num.data = log10(subset(data, select=c(-Gene, -Protein)) + 1e-7)
+num.data = subset(data, select=c(-Gene, -Protein)) + 1e-7
 
 # if(Sys.info()['sysname'] == "Darwin") {
 #   quartz()
@@ -14,32 +20,25 @@ num.data = log10(subset(data, select=c(-Gene, -Protein)) + 1e-7)
 #   x11()
 # }
 
-png(filename='boxplot_expr_all.png', height=6, width=6, units='in', res=300)
+png(filename=out_file, height=6, width=6, units='in', res=300)
 # down, left, up, right margins
 par(mar=c(12, 5.1, 4.1, 2.1))
 
 # colors of each kind of box
-colors <- c(different, rep(similar, 17), cortex)
+ylabel <- expression('Expression (rpkm)')
 
-ylabel <- expression('log'[10]*' (rpkm)')
+d <- melt(num.data, value.name="expr")
+colnames(d) = c('Tissue', 'Expression')
+q <- qplot(Tissue, Expression, data=d, geom=c("boxplot"), ylab=ylabel,
+           main = figure_title,
+           axes=FALSE)
 
-# if you put log="y" the fucking labels don't work, so I use the log10 of the
-# data, and I change (later) the labels of the y axis to be in logarithmic
-# scale
-boxplot(num.data, xaxt="n", xlab="", ylab=ylabel, axes=FALSE, col=colors,
-        pch=18, outcol="#333333", main="Expression of all genes across all tissues")
+q = q + theme(axis.text.x=element_text(angle = 60, hjust = 1, colour='black'),
+              axis.text.y=element_text(colour='black')) +
+        scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+                      labels = trans_format("log10", math_format(10^.x)))
+print(q)
 
-# the names of the tissues
-xlabels <- colnames(num.data)
-
-# y axis in logarithmic scale, x axis empty (by now)
-ylabels <- parse(text=paste(c("10^-6", "10^-4", "10^-2", "0", "10^2")))
-axis(2, labels=ylabels, at=c(-6, -4, -2, 0, 2))
-axis(1, labels=FALSE, at=c(1:19))
-
-# add tissue names as x labels
-text(x=seq_along(xlabels), y=par("usr")[3]- 1, srt=45, adj=1,
-     labels=xlabels, xpd=TRUE)
 
 dev.off()
 # message("Press Return To Continue")

@@ -6,7 +6,6 @@ all <- all$V3
 hk <- hk$V3
 ts <- ts$V3
 
-
 col1 <- rgb(0.6, 0.6, 1)
 col2 <- rgb(0.6, 1, 0.6)
 col3 <- rgb(1, 0.6, 0.6)
@@ -25,7 +24,8 @@ png('dNdS_boxplot.png', height=6, width=6, units='in', res=100)
 
 ylab <- "dN/dS ratio"
 xlabels <- c("All", "Housekeeping", "Tissue specific")
-boxplot(all, hk, ts, ylim=c(0, 1), names=xlabels, ylab=ylab, col=c(col1, col2, col3),
+boxplot(all, hk, ts, ylim=c(0, 1),
+        names=xlabels, ylab=ylab, col=c(col1, col2,col3),
         outcol="#333333", pch=18, main="dN/dS ratios across the three datasets")
 
 

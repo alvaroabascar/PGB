@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 
+source('colors.r')
 # all data
 data = read.csv("../genes/tissue_specific.txt", header=TRUE, sep="\t", skip=1)
 
@@ -22,10 +23,6 @@ png(filename=filename, height=6, width=6, units='in', res=300)
 par(mar=c(12, 5.1, 4.1, 2.1))
 
 # colors of each kind of box
-different <- "#ff2222"
-similar <- "#ffff66"
-cortex <- "#55ff55"
-outliers <- "#222222"
 colors <- c(different, similar, similar, rep(different, 4), similar, similar,
          rep(different, 7), cortex, different, different)
 

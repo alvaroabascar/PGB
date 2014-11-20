@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 
+source('colors.r')
+
 # all data
 data = read.csv("../genes/house_keeping.txt", header=TRUE, sep="\t", skip=1)
 
@@ -17,10 +19,6 @@ png(filename='boxplot_expr_all.png', height=6, width=6, units='in', res=300)
 par(mar=c(12, 5.1, 4.1, 2.1))
 
 # colors of each kind of box
-different <- "#ff2222"
-similar <- "#ffff66"
-cortex <- "#55ff55"
-outliers <- "#222222"
 colors <- c(different, rep(similar, 17), cortex)
 
 ylabel <- expression('log'[10]*' (rpkm)')

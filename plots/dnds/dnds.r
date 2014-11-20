@@ -9,25 +9,31 @@ database = "../../sql/data.sqlite"
 create_query <- function(tissue_name)  {
   query = sprintf("
   SELECT
+    ts.ensembl_id as gene,
     t.name as tissue,
-    t.expression as expression
+    e.expression as expression,
+    o.dnds as dns
   FROM
     (
       SELECT
         g.id as id
       FROM
+        ortholog_genes o,
         expressions e,
         tissue_specific_genes g
       WHERE
         g.specific_tissue_name = '%s' AND
         e.gene_id = g.id AND
         g.specific_tissue_id = e.tissue_id
-      ORDER BY e.expression DESC
-      LIMIT 50
+      ORDER BY o.dnds DESC
     ) as g,
+    tissue_specific_genes ts,
+    ortholog_genes o,
     expressions e,
     tissues t
   WHERE
+    ts.id = g.id AND
+    o.gene_id = g.id AND
     e.gene_id = g.id AND
     e.tissue_id = t.id
   ", tissue_name)

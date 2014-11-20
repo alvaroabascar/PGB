@@ -1,10 +1,13 @@
 #!/usr/bin/env Rscript
 
+library(reshape2)
+library(ggplot2)
+library(scales)
 # all data
 data = read.csv("../genes/all_genes.txt", header=TRUE, sep="\t", skip=1)
 
 # all quantitative variables, transformed to decimal logarithm
-num.data = log10(subset(data, select=c(-Gene, -Protein)) + 1e-7)
+num.data = subset(data, select=c(-Gene, -Protein)) + 1e-7
 
 # if(Sys.info()['sysname'] == "Darwin") {
 #   quartz()
@@ -23,25 +26,20 @@ cortex <- "#55ff55"
 outliers <- "#222222"
 colors <- c(different, rep(similar, 17), cortex)
 
-ylabel <- expression('log'[10]*' (rpkm)')
+ylabel <- expression('Expression (rpkm)')
 
-# if you put log="y" the fucking labels don't work, so I use the log10 of the
-# data, and I change (later) the labels of the y axis to be in logarithmic
-# scale
-boxplot(num.data, xaxt="n", xlab="", ylab=ylabel, axes=FALSE, col=colors,
-        pch=18, outcol="#333333", main="Expression of all genes across all tissues")
+d <- melt(num.data, value.name="expr")
+colnames(d) = c('Tissue', 'Expression')
+q <- qplot(Tissue, Expression, data=d, geom=c("boxplot"), ylab=ylabel,
+           main = 'Overview of gene expressions across all tissues',
+           axes=FALSE)
 
-# the names of the tissues
-xlabels <- colnames(num.data)
+q = q + theme(axis.text.x=element_text(angle = 60, hjust = 1, colour='black'),
+              axis.text.y=element_text(colour='black')) +
+        scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+                      labels = trans_format("log10", math_format(10^.x)))
+print(q)
 
-# y axis in logarithmic scale, x axis empty (by now)
-ylabels <- parse(text=paste(c("10^-6", "10^-4", "10^-2", "0", "10^2")))
-axis(2, labels=ylabels, at=c(-6, -4, -2, 0, 2))
-axis(1, labels=FALSE, at=c(1:19))
-
-# add tissue names as x labels
-text(x=seq_along(xlabels), y=par("usr")[3]- 1, srt=45, adj=1,
-     labels=xlabels, xpd=TRUE)
 
 dev.off()
 # message("Press Return To Continue")

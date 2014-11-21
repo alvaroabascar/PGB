@@ -40,7 +40,7 @@ len_hk_nc$label = 'housekeeping - noncoding'
 len_ts_nc$label = 'brain cortex specific - noncoding'
 
 makehist = function(filename, histogram) {
-  png(filename, width=6, height=6, units='in', res=300)
+  png(filename, width=8, height=6, units='in', res=300)
   p = ggplot(histogram, aes(x = length, fill = label)) +
       geom_density(alpha=0.2, position='identity') +
       theme(legend.position="top") + 
@@ -54,8 +54,10 @@ histogram_all_ts_hk = rbind(len_ts, len_hk, len_all)
 histogram_ts_vs_tsnc = rbind(len_ts, len_ts_nc)
 histogram_hk_vs_hknc = rbind(len_hk, len_hk_nc)
 histogram_all_vs_allnc = rbind(len_all, len_all_nc)
+histogram_nc_all_ts_hk = rbind(len_all_nc, len_hk_nc, len_ts_nc)
 
 makehist('ncRNA/all_hk_ts.png', histogram_all_ts_hk)
 makehist('ncRNA/ts_vs_tsnc.png', histogram_ts_vs_tsnc)
 makehist('ncRNA/hk_vs_hknc.png', histogram_hk_vs_hknc)
 makehist('ncRNA/all_vs_allnc.png', histogram_all_vs_allnc)
+makehist('ncRNA/nc_all_hk_ts.png', histogram_nc_all_ts_hk)

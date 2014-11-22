@@ -45,6 +45,7 @@ makehist = function(filename, histogram) {
       geom_density(alpha=0.2, position='identity') +
       theme(legend.position="top") + 
       xlim(0, 1e5) +
+      ylim(0, 9.5e-5) +
       scale_fill_manual(values = c("black", "blue", "green")) +
       xlab('Length (nt)') +
       ylab('Density')

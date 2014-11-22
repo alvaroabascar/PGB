@@ -37,10 +37,4 @@ data = sqldf(query, dbname=database)
 expression = data$expression
 tissue = data$tissue
 
-if(Sys.info()['sysname'] == "Darwin") {
-  quartz()
-} else {
-  x11()
-}
-
-pairwise.wilcox.test(expression, tissue, p.adjust.method="BF")
+test <- pairwise.wilcox.test(expression, tissue, p.adjust.method="bonferroni")

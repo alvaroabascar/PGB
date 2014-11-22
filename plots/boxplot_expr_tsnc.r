@@ -4,9 +4,9 @@ library(reshape2)
 library(ggplot2)
 library(scales)
 
-figure_title = 'Brain cortex specific gene expression across all tissues'
-genes_path = "../genes/tissue_specific.txt"
-out_file = "expressions/boxplot_expr_ts.png"
+figure_title = 'Brain cortex specific ncRNA expression across all tissues'
+genes_path = "../genes/ncRNA_data/ts_nc_expressions.txt"
+out_file = "expressions/boxplot_expr_ts_nc.png"
 
 # all data
 data = read.csv(genes_path, header=TRUE, sep="\t", skip=1)

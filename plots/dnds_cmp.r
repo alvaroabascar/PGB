@@ -10,7 +10,7 @@ col1 <- rgb(0.6, 0.6, 1)
 col2 <- rgb(0.6, 1, 0.6)
 col3 <- rgb(1, 0.6, 0.6)
 
-png('dNdS_hists.png', height=6, width=6, units='in', res=100)
+png('dnds/dNdS_hists.png', height=6, width=6, units='in', res=100)
 par(mfrow=c(3,1))
 xlab <- "dN/dS ratio"
 

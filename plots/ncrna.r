@@ -1,5 +1,8 @@
 path <- "../genes/ncRNA_data/"
 
+library(ggplot2)
+library(scales)
+
 all <- read.csv(paste(path, "all_genes_ncRNA.txt", sep=''),
                 header=TRUE, sep='\t')
 hk <- read.csv(paste(path, "house_keeping_ncRNA.txt", sep=''),
@@ -13,49 +16,50 @@ hk_nc <- read.csv(paste(path, "house_keeping_ncRNA_only.txt", sep=''),
 ts_nc <- read.csv(paste(path, "tissue_specific_ncRNA_only.txt", sep=''),
                   header=TRUE, sep='\t')
 
-len_all <- all[[5]] - all[[4]]
-len_hk <- hk[[5]] - hk[[4]]
-len_ts <- ts[[5]] - ts[[4]]
+len_all <- all[5] - all[4]
+len_hk <- hk[5] - hk[4]
+len_ts <- ts[5] - ts[4]
 
-len_all_nc <- all_nc[[5]] - all_nc[[4]]
-len_hk_nc <- hk_nc[[5]] - hk_nc[[4]]
-len_ts_nc <- ts_nc[[5]] - ts_nc[[4]]
+len_all_nc <- all_nc[5] - all_nc[4]
+len_hk_nc <- hk_nc[5] - hk_nc[4]
+len_ts_nc <- ts_nc[5] - ts_nc[4]
 
-# h = hist(len_all)
-# h$density = h$counts/sum(h$counts)*100
-# plot(h,freq=F, col='red')
-pall <- hist(len_all, nclass=100)
-phk <- hist(len_hk, nclass=100)
-pts <- hist(len_ts, nclass=100)
+colnames(len_all) = c('length')
+colnames(len_hk) = c('length')
+colnames(len_ts) = c('length')
+colnames(len_all_nc) = c('length')
+colnames(len_hk_nc) = c('length')
+colnames(len_ts_nc) = c('length')
 
-pallnc <- hist(len_all_nc, nclass=100)
-phknc <- hist(len_hk_nc, nclass=100)
-ptsnc <- hist(len_ts_nc, nclass=100)
+len_all$label = 'all genes'
+len_hk$label = 'housekeeping'
+len_ts$label = 'brain cortex specific'
 
+len_all_nc$label = 'all genes - noncoding'
+len_hk_nc$label = 'housekeeping - noncoding'
+len_ts_nc$label = 'brain cortex specific - noncoding'
 
-pall$density = pall$counts / sum(pall$counts) * 100
-phk$density = phk$counts / sum(phk$counts) * 100
-pts$density = pts$counts / sum(pts$counts) * 100
+makehist = function(filename, histogram) {
+  png(filename, width=8, height=6, units='in', res=300)
+  p = ggplot(histogram, aes(x = length, fill = label)) +
+      geom_density(alpha=0.2, position='identity') +
+      theme(legend.position="top") + 
+      xlim(0, 1e5) +
+      scale_fill_manual(values = c("black", "blue", "green")) +
+      xlab('Length (nt)') +
+      ylab('Density')
+  print(p)
+  dev.off()
+}
 
-pallnc$density = pallnc$counts / sum(pallnc$counts) * 100
-phknc$density = phknc$counts / sum(phknc$counts) * 100
-ptsnc$density = ptsnc$counts / sum(ptsnc$counts) * 100
+histogram_all_ts_hk = rbind(len_ts, len_hk, len_all)
+histogram_ts_vs_tsnc = rbind(len_ts, len_ts_nc)
+histogram_hk_vs_hknc = rbind(len_hk, len_hk_nc)
+histogram_all_vs_allnc = rbind(len_all, len_all_nc)
+histogram_nc_all_ts_hk = rbind(len_all_nc, len_hk_nc, len_ts_nc)
 
-par(mfrow=c(3,3))
-plot(pall, col='green', freq=F)
-plot(pts, col='green', freq=F)
-plot(phk, col='green', freq=F)
-
-plot(pallnc, col='red', freq=F)
-plot(phknc, col='red', freq=F)
-plot(ptsnc, col='red', freq=F)
-# plot(pall, col='green', freq=F)
-# plot(pts, add=T, col='blue', freq=F)
-# plot(phk, add=T, col='red', freq=F)
-
-
-# matriz <- matrix(c(len_all, len_hk, len_ts,
-#                   len_all_nc, len_hk_nc, len_ts_nc), ncol=3, byrow=T)
-# barplot(matriz, main="Car Distribution by Gears and VS",
-#         xlab="Number of Gears", col=c("darkblue","red"),
-#         legend = rownames(counts))
+makehist('ncRNA/all_hk_ts.png', histogram_all_ts_hk)
+makehist('ncRNA/ts_vs_tsnc.png', histogram_ts_vs_tsnc)
+makehist('ncRNA/hk_vs_hknc.png', histogram_hk_vs_hknc)
+makehist('ncRNA/all_vs_allnc.png', histogram_all_vs_allnc)
+makehist('ncRNA/nc_all_hk_ts.png', histogram_nc_all_ts_hk)

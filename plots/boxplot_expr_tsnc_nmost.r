@@ -4,15 +4,19 @@ library(reshape2)
 library(ggplot2)
 library(scales)
 
-figure_title = 'Brain cortex specific gene expression across all tissues'
-genes_path = "../genes/tissue_specific.txt"
-out_file = "expressions/boxplot_expr_ts.png"
+n = 20
+
+figure_title = sprintf("Top %d expressed ncRNAs in brain cortex", n)
+genes_path = sprintf("../genes/ncRNA_data/ts_nc_expressions.txt", n)
+out_file = sprintf("expressions/boxplot_expr_ts_nc_top_%d.png", n)
 
 # all data
 data = read.csv(genes_path, header=TRUE, sep="\t", skip=1)
 
 # all quantitative variables, transformed to decimal logarithm
 num.data = subset(data, select=c(-Gene, -Protein)) + 1e-7
+num.data = num.data[order(num.data$Brain...Cortex, decreasing=T),]
+num.data = num.data[1:n, ]
 
 # if(Sys.info()['sysname'] == "Darwin") {
 #   quartz()

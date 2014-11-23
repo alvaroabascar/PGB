@@ -19,10 +19,13 @@ create_tissue_expression_boxplot = function(query, title) {
 
   # plot boxplot
 
-  plot = ggplot(data, aes(x=factor(tissue), y=expression)) + labs(title = title)
-  plot = plot + geom_boxplot(aes(fill = tissue))
-  plot = plot + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + xlab("Tissues") + ylab("Expressions")
-  plot = plot + scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
+  plot = ggplot(data, aes(x=factor(tissue), y=expression)) +
+         labs(title = title) +
+         geom_boxplot(aes(fill = tissue)) +
+         theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+         xlab("Tissues") +
+         ylab("Expression (rpkm)") +
+         scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
 
   pvalue_color = function(tissue) {
     if(get_pvalue(p_values, "Brain - Cortex", tissue) <= 0.05) {

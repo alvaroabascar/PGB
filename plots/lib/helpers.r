@@ -1,6 +1,7 @@
+
 library(sqldf)
 library(ggplot2)
-# library(scales)
+library(scales)
 library(GetoptLong)
 
 script_dir = function() {

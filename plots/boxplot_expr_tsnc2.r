@@ -17,13 +17,13 @@ data = read.csv(genes_path, header=TRUE, sep="\t", skip=1)
 min_expr = 1e-5
 num.data = subset(data, select=c(-Gene, -Protein)) + min_expr
 
-if(Sys.info()['sysname'] == "Darwin") {
-  quartz()
-} else {
-  x11()
-}
+# if(Sys.info()['sysname'] == "Darwin") {
+#   quartz()
+# } else {
+#   x11()
+# }
 
-# png(filename=out_file, height=6, width=6, units='in', res=300)
+png(filename=out_file, height=6, width=6, units='in', res=300)
 # down, left, up, right margins
 par(mar=c(12, 5.1, 4.1, 2.1))
 
@@ -37,7 +37,7 @@ test_data = pairwise.wilcox.test(data$Expression, data$Tissue, p.adjust.method =
 p_values = test_data$p.value
 
 plot = ggplot(data, aes(x=Tissue, y=Expression)) +
-       geom_boxplot(aes(fill = Tissue)) +
+       geom_boxplot(aes(fill = Tissue), alpha=0.5) +
        labs(title = title) +
        theme(axis.text.x = element_text(angle=45, hjust=1)) +
        xlab("Tissues") +
@@ -57,10 +57,10 @@ pvalue_color = function(tissue) {
 
 tissues = unique(data$Tissue)
 # values = sapply(tissues, pvalue_color, simplify=FALSE, USE.NAMES=TRUE)
-values = c('red', 'green', rep('red', 18))
+values = c('red', 'green', rep('red', 14), 'green', 'red', 'red')
 plot = plot + scale_fill_manual(values=values, guide=FALSE)
 print(plot)
 
-# dev.off()
+dev.off()
 # message("Press Return To Continue")
 # invisible(readLines("stdin", n=1))

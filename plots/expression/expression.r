@@ -4,6 +4,9 @@ script_dir = dirname(sys.frame(1)$ofile)
 
 source(file.path(script_dir, "../lib/helpers.r"))
 
+# value to add to data
+min = 1e-5
+
 #
 # Creates a tissue expression boxplot
 #
@@ -19,12 +22,18 @@ create_tissue_expression_boxplot = function(query, title) {
   test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni")
   p_values = test_data$p.value
 
+  # add very small value to expressions
+  data$expression = data$expression + min
+
   # plot boxplot
 
-  plot = ggplot(data, aes(x=factor(tissue), y=expression)) + labs(title = title)
-  plot = plot + geom_boxplot(aes(fill = tissue))
-  plot = plot + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + xlab("Tissues") + ylab("Expressions")
-  plot = plot + scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
+  plot = ggplot(data, aes(x=factor(tissue), y=expression)) +
+         labs(title = title) +
+         geom_boxplot(aes(fill = tissue), alpha=0.55) +
+         theme(axis.text.x = element_text(angle = 55, hjust = 1)) +
+         xlab("Tissues") +
+         ylab("Expression (rpkm)") +
+         scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
 
   pvalue_color = function(tissue) {
     if(get_pvalue(p_values, "Brain - Cortex", tissue) <= 0.05) {
@@ -38,9 +47,12 @@ create_tissue_expression_boxplot = function(query, title) {
   values = sapply(tissues, pvalue_color, simplify = FALSE, USE.NAMES = TRUE)
 
   plot = plot + scale_fill_manual(values = values, guide=FALSE)
+  png(filename=sprintf("%s.png", title), width=9, height=6, units='in',
+      res=300)
 
-  start_renderer()
+  # start_renderer()
   print(plot)
+  dev.off()
 }
 
 most_important_20_query = "

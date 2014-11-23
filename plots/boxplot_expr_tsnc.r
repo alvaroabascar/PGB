@@ -32,14 +32,14 @@ ylabel <- expression('Expression (rpkm)')
 
 data <- melt(num.data, value.name="expr")
 colnames(data) = c('Tissue', 'Expression')
-
+data <- data[order(data$Tissue), ]
 test_data = pairwise.wilcox.test(data$Expression, data$Tissue, p.adjust.method = 'bonferroni', paired=TRUE)
 p_values = test_data$p.value
 
 plot = ggplot(data, aes(x=Tissue, y=Expression)) +
        geom_boxplot(aes(fill = Tissue), alpha=0.5) +
        labs(title = title) +
-       theme(axis.text.x = element_text(angle=45, hjust=1)) +
+       theme(axis.text.x = element_text(angle=55, hjust=1)) +
        xlab("Tissues") +
        ylab("Expressions") +
        # ylim(c(0,3))

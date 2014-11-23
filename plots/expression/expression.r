@@ -11,6 +11,8 @@ source(file.path(script_dir, "../lib/helpers.r"))
 create_tissue_expression_boxplot = function(query, title) {
 
   data = execute_sql(query)
+  data$expression = data$expression + 0.001
+
   tissues = unique(data$tissue)
 
   # obtain p-values

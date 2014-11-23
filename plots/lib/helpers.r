@@ -1,7 +1,8 @@
 library(sqldf)
 library(ggplot2)
-# library(scales)
+library(scales)
 library(GetoptLong)
+library(Hmisc)
 
 script_dir = function() {
   return(dirname(sys.frame(1)$ofile))

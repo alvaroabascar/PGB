@@ -16,7 +16,7 @@ create_tissue_expression_boxplot = function(query, title) {
   tissues = unique(data$tissue)
 
   # obtain p-values
-  test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni", paired=TRUE)
+  test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni")
   p_values = test_data$p.value
 
   # plot boxplot

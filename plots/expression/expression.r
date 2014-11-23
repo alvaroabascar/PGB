@@ -28,7 +28,7 @@ create_tissue_expression_boxplot = function(query, title) {
   plot = ggplot(data, aes(x=factor(tissue), y=expression)) +
          labs(title = title) +
          geom_boxplot(aes(fill = tissue), alpha=0.55) +
-         theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+         theme(axis.text.x = element_text(angle = 55, hjust = 1)) +
          xlab("Tissues") +
          ylab("Expression (rpkm)") +
          scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
@@ -45,7 +45,7 @@ create_tissue_expression_boxplot = function(query, title) {
   values = sapply(tissues, pvalue_color, simplify = FALSE, USE.NAMES = TRUE)
 
   plot = plot + scale_fill_manual(values = values, guide=FALSE)
-  png(filename=sprintf("%s.png", title), width=8, height=6, units='in',
+  png(filename=sprintf("%s.png", title), width=9, height=6, units='in',
       res=300)
 
   # start_renderer()

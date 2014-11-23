@@ -39,9 +39,12 @@ create_tissue_expression_boxplot = function(query, title) {
   values = sapply(tissues, pvalue_color, simplify = FALSE, USE.NAMES = TRUE)
 
   plot = plot + scale_fill_manual(values = values, guide=FALSE)
+  png(filename=sprintf("%s.png", title), width=8, height=6, units='in',
+      res=300)
 
-  start_renderer()
+  # start_renderer()
   print(plot)
+  dev.off()
 }
 
 most_important_20_query = "

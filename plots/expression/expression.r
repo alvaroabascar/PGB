@@ -4,6 +4,9 @@ script_dir = dirname(sys.frame(1)$ofile)
 
 source(file.path(script_dir, "../lib/helpers.r"))
 
+# value to add to data
+min = 1e-5
+
 #
 # Creates a tissue expression boxplot
 #
@@ -16,6 +19,9 @@ create_tissue_expression_boxplot = function(query, title) {
   # obtain p-values
   test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni", paired=TRUE)
   p_values = test_data$p.value
+
+  # add very small value to expressions
+  data$expression = data$expression + min
 
   # plot boxplot
 

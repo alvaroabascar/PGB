@@ -27,7 +27,7 @@ create_tissue_expression_boxplot = function(query, title) {
 
   plot = ggplot(data, aes(x=factor(tissue), y=expression)) +
          labs(title = title) +
-         geom_boxplot(aes(fill = tissue)) +
+         geom_boxplot(aes(fill = tissue), alpha=0.55) +
          theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
          xlab("Tissues") +
          ylab("Expression (rpkm)") +

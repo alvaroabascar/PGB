@@ -35,8 +35,8 @@ test_data = pairwise.wilcox.test(data$Expression, data$Tissue, p.adjust.method =
 p_values = test_data$p.value
 
 plot = ggplot(data, aes(x=Tissue, y=Expression)) +
-       labs(title = title) +
        geom_boxplot(aes(fill = Tissue)) +
+       labs(title = title) +
        theme(axis.text.x = element_text(angle=45, hjust=1)) +
        xlab("Tissues") +
        ylab("Expressions") +
@@ -51,8 +51,9 @@ pvalue_color = function(tissue) {
   }
   return(color)
 }
-values = sapply(tissues_pvalue_color, simplify=FALSE, USE.NAMES=TRUE)
 
+tissues = unique(data$Tissue)
+values = sapply(tissues, pvalue_color, simplify=FALSE, USE.NAMES=TRUE)
 plot = plot + scale_fill_manual(values=values, guide=FALSE)
 print(plot)
 

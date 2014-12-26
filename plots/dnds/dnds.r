@@ -38,7 +38,7 @@ tissue_means = data.frame(tissues, sapply(tissues, function(tissue) mean(data$dn
 ordered_tissues = tissue_means[ order(tissue_means[,2]), ][,1]
 
 plot = ggplot(data, aes(x=factor(tissue, levels=ordered_tissues, ordered=TRUE), y=dnds)) + labs(title = "dN/dS in tissues")
-plot = plot + stat_summary(mapping = aes(colour = tissue), fun.data = mean_cl_normal, geom = "errorbar", width = 0.2) + stat_summary(fun.data = mean_cl_boot, geom="point")
+plot = plot + stat_summary(mapping = aes(colour = tissue), fun.data = mean_cl_normal, geom = "errorbar", width = 0.5, size = 1) + stat_summary(fun.data = mean_cl_boot, geom="point")
 plot = plot + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + xlab("Tissues") + ylab("dN/dS")
 
 

@@ -4,9 +4,6 @@ script_dir = dirname(sys.frame(1)$ofile)
 
 source(file.path(script_dir, "../lib/helpers.r"))
 
-# value to add to data
-min = 1e-5
-
 #
 # Creates a tissue expression boxplot
 #
@@ -14,16 +11,13 @@ min = 1e-5
 create_tissue_expression_boxplot = function(query, title) {
 
   data = execute_sql(query)
-  data$expression = data$expression + 0.001
+  data$expression = data$expression + 1e-5
 
   tissues = unique(data$tissue)
 
   # obtain p-values
-  test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni")
+  test_data = pairwise.wilcox.test(data$expression, data$tissue, p.adjust.method="bonferroni",paired=TRUE)
   p_values = test_data$p.value
-
-  # add very small value to expressions
-  data$expression = data$expression + min
 
   # plot boxplot
 
@@ -31,7 +25,7 @@ create_tissue_expression_boxplot = function(query, title) {
          labs(title = title) +
          geom_boxplot(aes(fill = tissue), alpha=0.55) +
          theme(axis.text.x = element_text(angle = 55, hjust = 1)) +
-         xlab("Tissues") +
+         xlab("Tissue") +
          ylab("Expression (rpkm)") +
          scale_y_log10(labels = trans_format("log10", math_format(10^.x)))
 
@@ -47,12 +41,10 @@ create_tissue_expression_boxplot = function(query, title) {
   values = sapply(tissues, pvalue_color, simplify = FALSE, USE.NAMES = TRUE)
 
   plot = plot + scale_fill_manual(values = values, guide=FALSE)
-  png(filename=sprintf("%s.png", title), width=9, height=6, units='in',
-      res=300)
+  png(filename=sprintf("%s.png", title), width=9, height=6, units='in', res=300)
 
-  # start_renderer()
+  start_renderer()
   print(plot)
-  dev.off()
 }
 
 most_important_20_query = "
